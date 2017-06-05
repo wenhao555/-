@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adapter_levellistview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yu413.netywork.Adapter_levellistview">
+
+    <TextView
+        android:id="@+id/continent_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choose_eara_item_selector"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="北京"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+</RelativeLayout>

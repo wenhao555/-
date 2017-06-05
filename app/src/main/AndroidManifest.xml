@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yu413.netywork">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/qing"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Weather" />
+        <activity android:name=".City" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="datalibrary.DataPackers" />
+        <activity android:name="shanglaxiala.ShangLaXiaLa" />
+        <activity android:name=".Recyeclerview_item" />
+        <activity android:name="data_table.Data_Table_Name" />
+        <activity android:name="hintpopup.HPWindow" />
+        <activity android:name=".item_root_hintpopupwindow" />
+        <activity android:name=".item_hint_popupwindow" />
+        <activity android:name=".Adapter_levellistview" />
+        <activity android:name="dataview.DataView" />
+        <activity android:name="game.MyGame" />
+        <activity android:name=".Dialog_score"></activity>
+    </application>
+
+</manifest>
